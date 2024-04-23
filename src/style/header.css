@@ -1,0 +1,16 @@
+.header{
+    background-color: #1A2D56;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_title{
+    text-transform: uppercase;
+    padding-left: 15px;
+    border-left: 5px solid #ff0000;
+}
+.header_link{
+    padding-right: 20px;
+}

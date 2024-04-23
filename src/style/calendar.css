@@ -1,0 +1,91 @@
+.match_calendar{
+   max-width: 376px;
+    padding: 0 5px;
+}
+.select_input{
+    text-align: left;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius:5px ;
+    margin: 5px 0;
+}
+
+.date_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #f7f7f7;
+    padding: 10px 0;
+}
+.date_container{
+    width: 75px ;
+    padding: 5px 0;
+    font-weight: 600;
+    font-size: 10px;
+    border-radius: 5px;
+    text-align: center;
+    .date_name{
+        opacity: 0.5;
+        margin-bottom: 5px;
+    }
+}
+.date_container--active{
+   color: rgb(255, 0, 76);
+   background-color: rgba(255, 0, 76, 0.1);
+}
+.match_list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f7f7f7;
+    padding-bottom: 10px;
+}
+.match_container{
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    gap:10px;
+    .name{
+        width: 50px;
+        font-weight: 600;
+       text-align: right;
+    }
+    .name-left{
+        text-align: left;
+    }
+    .logo{
+        width: 30px;
+    }
+    .match_info{
+        padding: 0 20px;
+        width: 50px;
+    }
+    .match_score{
+        font-weight: 600;
+        font-style: italic;
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    .match_text{
+        color: #81cfa1;
+    }
+    .match_time{
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+}
+@media (max-width: 768px) {
+    .match_list{
+        max-height: 400px;
+        overflow: auto;
+    }
+  }
