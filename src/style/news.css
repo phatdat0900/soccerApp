@@ -48,7 +48,7 @@
     .image{
         border-radius: 10px;
         width: 50%;
-        min-width: 200px;
+        min-width: 190px;
     }
     .content{
         display: flex;
